@@ -1,14 +1,27 @@
 @font-face {
-  font-family: black;
-  src: url(black.ttf);
+    font-family: lombok;
+    src: url(font.otf);
 }
 
-@font-face {
-  font-family: outline;
-  src: url(outline.ttf);
+h2 {
+  font-family: lombok;
+}
+
+#home-ref {
+  background-image: url(assets/parallax1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 780px;
+}
+
+#about-content {
+  text-align: justify;
 }
 
 #about-ref,
+#skill-ref,
 #work-ref {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -24,28 +37,25 @@
 }
 
 .brand-logo {
+  font-family: lombok;
   margin-left: 20px;
 }
 
-#name1,
-#name2,
-#name3 {
-  display: block;
+#down {
+  height: 40px;
+  background: rgba(100,100,100,0.7);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }
 
-.name {
-  font-size: 98px;
-  min-width: 450px;
-  display: block;
-  color: white;
+#down-icon {
+  color: black;
 }
 
 #section-head {
   font-size: 30px;
-}
-
-#about-content {
-  max-width: 300px;
 }
 
 #techicon {
@@ -58,9 +68,10 @@
   text-align: center;
 }
 
-#work-content li {
+#work-item {
   display: inline-block;
   min-width: 800px;
+  padding: 10px 0;
 }
 
 #work1 {
@@ -93,7 +104,16 @@
 
 #contact-list {
   text-align: center;
-  min-width: 640px;
+  min-width: 800px;
+}
+
+.modal {
+  width: 90% !important;
+  max-height: 83% !important;
+}
+
+#resume {
+  border: solid 1px black;
 }
 
 #copyright {
