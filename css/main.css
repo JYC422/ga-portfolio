@@ -7,17 +7,14 @@ h2 {
   font-family: lombok;
 }
 
-#home-ref {
-  background-image: url(assets/parallax1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #464646;
-  height: 780px;
+.parallax-container {
+  height: 50px;
+  max-height: 200px;
 }
 
-#about-content {
-  text-align: justify;
+.brand-logo {
+  font-family: lombok;
+  margin-left: 20px;
 }
 
 #about-ref,
@@ -27,35 +24,33 @@ h2 {
   padding-bottom: 70px;
 }
 
-.parallax-container {
-  height: 50px;
-  max-height: 250px;
+#intro-section {
+  padding: 0;
+  margin: auto;
+  text-align: center;
 }
 
-.parallaxhead {
-  max-height: 400px;
+#intro img {
+  background: url(assets/parallax1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
 }
 
-.brand-logo {
-  font-family: lombok;
-  margin-left: 20px;
+#about-content {
+  text-align: justify;
 }
 
 #down {
   height: 40px;
   background: rgba(100,100,100,0.7);
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: 30px;
   text-align: center;
-  width: 100%;
+  min-width: 100%;
 }
 
 #down-icon {
   color: black;
-}
-
-#section-head {
-  font-size: 30px;
 }
 
 #techicon {
@@ -81,7 +76,7 @@ h2 {
 #work2 {
   float: right;
   width: 600px;
-  padding: 40px 20px 20px 20px;
+  padding: 5px 20px 5px 20px;
 }
 
 #work-img {
