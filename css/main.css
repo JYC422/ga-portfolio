@@ -18,10 +18,14 @@ h2 {
 }
 
 #about-ref,
-#skill-ref,
 #work-ref {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#tech-ref {
+  padding-top: 75px;
+  padding-bottom: 40px;
 }
 
 #intro {
@@ -71,7 +75,7 @@ h2 {
 }
 
 #techicon {
-  margin: 30px 0;
+  margin: 10px 0;
   text-align: center;
 }
 
